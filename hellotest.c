@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void display (int a){
-
-    printf("hello world");
-    printf("%d",a);
+int display (int* a){
+    printf("%d",a[0]);
+    return a[0]+2;
 }
