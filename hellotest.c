@@ -1,5 +1,7 @@
 #include <stdio.h>
 
-void display (){
+void display (int a){
+
     printf("hello world");
+    printf("%d",a);
 }
